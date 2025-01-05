@@ -1,0 +1,112 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #4A90E2;
+    margin-top: 20px;
+  }
+  
+  h3, h4, h5 {
+    color: #4A90E2;
+    margin-top: 10px;
+  }
+  
+  /* Form styling */
+  div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+  }
+  
+  /* Error message styling */
+  .text-red-500 {
+    color: #F44336;
+  }
+  
+  /* List and insights display */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  h4 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  h5 {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h3, h4, h5 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
